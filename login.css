@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Sansation Light";
+  src: url("./font/Sansation-Light.ttf") format("ttf"), url("./font/Sansation-Light.ttf") format("ttf");
+}
+.title-login {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-family: "Vetrino";
+  font-weight: lighter;
+}
+
+.text-about-us h1 {
+  width: 100%;
+  max-width: 830px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+section {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.login-container {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.login-container .login-form {
+  max-width: 837px;
+  height: 454px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 35px;
+}
+.login-container .login-form label {
+  font-size: 24px;
+  font-family: "Sansation Light";
+}
+.login-container .email-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-container .password-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  align-items: center;
+}
+.login-container .login-form input {
+  width: 407px;
+  height: 72px;
+  margin-left: 80px;
+  padding: 15px;
+}
+.login-container .forget-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 35px;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+.login-container p {
+  font-size: 20px;
+}
+.login-container button.login {
+  width: 207px;
+  height: 57px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.login-container .registration-container {
+  width: 395px;
+  height: 454px;
+  background-color: #fff;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.login-container .registration-container .title-registration {
+  font-size: 32px;
+  color: #000;
+  font-family: "Vetrino";
+  font-weight: lighter;
+}
+.login-container .registration-container .text-registration {
+  font-size: 24px;
+  color: #000;
+  margin-top: 70px;
+  font-family: "Sansation Light";
+}
+.login-container .registration-container button.registration {
+  color: #fff;
+  width: 305px;
+  height: 57px;
+  font-size: 24px;
+  background-color: #000;
+  margin-top: 70px;
+  justify-content: center;
+  cursor: pointer;
+}
+.login-container .registration-container button.registration:hover {
+  background-color: #474747;
+}/*# sourceMappingURL=login.css.map */

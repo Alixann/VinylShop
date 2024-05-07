@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Sansation Light";
+  src: url("./font/Sansation-Light.ttf") format("ttf"), url("./font/Sansation-Light.ttf") format("ttf");
+}
+section {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+section .title-favorite {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-family: "Vetrino";
+  font-weight: lighter;
+}
+section .section-flex-favorite-products {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 30px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+section .section-flex-favorite-products .heart {
+  cursor: pointer;
+}
+section .section-flex-favorite-products .heart.active {
+  fill: #fff;
+}
+section .section-flex-favorite-products .cart-product {
+  display: flex;
+  padding: 30px 40px;
+  max-width: 624px;
+  width: 100%;
+  height: 223px;
+  background: #171717;
+  border: 0.864062px solid #ffffff;
+}
+section .section-flex-favorite-products .cart-product .background {
+  width: 180px;
+  height: 160px;
+  background: #292d34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .section-flex-favorite-products .cart-product .cart-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 33px;
+  margin-left: 20px;
+}
+section .section-flex-favorite-products .cart-product .cart-info h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #fff;
+  margin: 0;
+}
+section .section-flex-favorite-products .cart-product .cart-info h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  margin: 0;
+}
+section .section-flex-favorite-products .cart-product .cart-info .cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .section-flex-favorite-products .cart-product .cart-info .cart-btn button {
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  padding: 9px;
+  max-width: 190px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+}
+section .section-flex-favorite-products .cart-product .cart-info .cart-btn button:hover {
+  background-color: #29354b;
+}
+section .section-flex-favorite-products .cart-product .container-name-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=favorite.css.map */

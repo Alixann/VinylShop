@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Sansation Light";
+  src: url("./font/Sansation-Light.ttf") format("ttf"),
+    url("./font/Sansation-Light.ttf") format("ttf");
+}
+
+
+.product-item {
+  display: flex;
+  padding: 0 80px;
+  margin: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .item-img {
+    border: 1px solid #fff;
+    max-width: 522px;
+    max-height: 522px;
+    height: 522px;
+    width: 522px;
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 50%;
+
+    .item-info-title {
+      display: flex;
+      flex-direction: column;
+      margin-left: 110px;
+      margin-bottom: 20px;
+
+      h1 {
+        font-family: "Sansation Light";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        letter-spacing: 0.015em;
+        color: #fff;
+        margin: 0;
+      }
+
+      h2 {
+        font-family: "Sansation Light";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        letter-spacing: 0.015em;
+        color: #fff;
+        margin: 0;
+      }
+    }
+
+    .item-info-list {
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        margin-left: 110px;
+        font-family: "Sansation Light";
+        li {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 158%;
+          letter-spacing: 0.015em;
+          color: #ffe1e1;
+          font-family: "Sansation Light";
+        }
+      }
+    }
+
+    .item-interaction {
+      display: flex;
+      align-items: center;
+      column-gap: 70px;
+      margin-left: 110px;
+      margin-top: 20px;
+
+      span {
+        font-family: "Sansation Light";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 150%;
+        letter-spacing: 0.015em;
+        color: #fff;
+      }
+
+      button {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 62px;
+        padding: 15px 47px;
+
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.015em;
+      }
+    }
+  }
+}
+
+.discription-product-item {
+  padding: 0 80px;
+  font-family: "Sansation Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+
+  letter-spacing: 0.015em;
+  color: #fff;
+}
+
+.tracklist {
+  padding: 0 80px;
+  margin-bottom: 190px;
+
+  .tracklist-list {
+    display: flex;
+    column-gap: 100px;
+    position: relative;
+    ol {
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      li {
+        font-family: "Sansation Light";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.015em;
+        color: #fff;
+      }
+    }
+
+    svg {
+      position: absolute;
+      right: 0;
+      top: -150px;
+    }
+  }
+}
+
+.also-like {
+  padding: 0 80px;
+  margin-bottom: 80px;
+
+  h2 {
+    text-align: center;
+    font-family: "Vetrino";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0.015em;
+    margin-bottom: 45px;
+  }
+}
+.heart {
+  cursor: pointer;
+}
+
+.heart.active {
+  fill: #fff;
+}
